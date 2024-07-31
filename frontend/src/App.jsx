@@ -1,17 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import RegisterPage from './componets/Auth/RegisterPage'
+import LoginPage from './componets/Auth/LoginPage'
+import Navbar from './componets/Main/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
+    <Navbar/>
       <h1>Loginpage</h1>
+      
+      <img src="vite.svg" alt="" />
+      
 
-      <h1>arun kannan</h1>
+      <h1>arun kannann</h1>
+      <RegisterPage/>
+      <LoginPage/>
+      
 
     </>
   )
