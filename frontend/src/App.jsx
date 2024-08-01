@@ -1,25 +1,13 @@
-import { useState } from 'react'
-import RegisterPage from './componets/Auth/RegisterPage'
-import LoginPage from './componets/Auth/LoginPage'
-import Navbar from './componets/Main/Navbar'
+import React from 'react'
+import Navbar from './componets/Navbar/Navbar'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-    <Navbar/>
-      <h1>Loginpage</h1>
-      
-      <img src="vite.svg" alt="" />
-      
-
-      <h1>arun kannann</h1>
-      <RegisterPage/>
-      <LoginPage/>
-      
-
-    </>
+   <>
+   <Navbar/>
+    <h1>App</h1>
+    <p>This is react app</p>
+   </>
   )
 }
 
